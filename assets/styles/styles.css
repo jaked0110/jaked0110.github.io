@@ -1,22 +1,22 @@
 /* TAGS */
 a{
-    color: #22333B;
+    color: #F2F5D3;
     text-decoration: none;
 }
 
 a:hover {
-    color: #4FB286;
+    color: #babda5;
 }
 
 body{
-    background-color: #f2f4f3;
+    background-color: #483C46;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
 }
 
 /* CLASSES */
 .button{
-    background-color: #2F8C62;
+    background-color: #C6C9BD;
     color: #FFF;
     border: none;
     border-radius: .25em;
@@ -24,12 +24,12 @@ body{
 }
 
 .button:hover{
-    background-color: #4FB286;
+    background-color: #d7dabd;
     color: #FFF;
 
 }
 .navbar{
-    border-bottom: 1px solid #22333B;
+    border-bottom: 1px solid #F2F5D3;
     padding: .5rem;
 }
 
