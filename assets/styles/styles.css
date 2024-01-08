@@ -1,17 +1,21 @@
 /* TAGS */
 a{
-    color: #F2F5D3;
+    color: #30282e;
     text-decoration: none;
 }
 
 a:hover {
-    color: #babda5;
+    color: #ffffff;
 }
 
 body{
-    background-color: #483C46;
+    background-color: #30282e;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
+}
+
+ul{
+    list-style-type: none;
 }
 
 /* CLASSES */
@@ -48,4 +52,66 @@ body{
 .navbar-nav li{
     padding: 0.5em;
     margin: 0 0.5em;
+}
+
+/*Off-screen-menu*/
+.off-screen-menu{
+    background-color: #babda5;
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: 0.3s ease;
+}
+
+.off-screen-menu.active{
+    right: 0;
+}
+.ham-menu{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+}
+
+.ham-menu span{
+    height: 5px;
+    width: 100%;
+    background-color: #C6C9BD;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 0.3s ease;
+    transform: translate(-50%, -50%)
+}
+.ham-menu span:nth-child(1){
+    top: 25%;
+}
+.ham-menu span:nth-child(3){
+    top: 75%;
+}
+
+.ham-menu.active span:nth-child(1){
+    top: 50%;
+    transform: translate(50%, 50%) rotate(45 deg);
+    background-color: #30282e;
+}
+
+.ham-menu.active span:nth-child(2){
+    opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3){
+    top: 50%;
+    transform: translate(50%, 50%) rotate(-45 deg);
+    background-color: #30282e;
 }
