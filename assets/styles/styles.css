@@ -10,15 +10,37 @@ a:hover {
 
 body{
     background-color: #30282e;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5;
+    color: #F2F5D3;
 }
 
 ul{
     list-style-type: none;
 }
 
+img{
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 4.2em;
+    z-index:-1;
+    padding: 2rem;
+    height: auto;
+    width: 1700px;    
+}
+
 /* CLASSES */
+.afarrugia{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.intro{
+    text-align: right;
+    right: 0;
+}
+
 .button{
     background-color: #C6C9BD;
     color: #FFF;
@@ -116,9 +138,9 @@ ul{
 }
 
 /*Home Page Images*/
-.homeimage{
+.ahomeimage{
     position: absolute;
     left: 0;
     top: 4.2em;
-
+    z-index:-1
 }

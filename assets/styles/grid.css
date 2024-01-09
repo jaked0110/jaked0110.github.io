@@ -18,7 +18,6 @@
 }
 
 .container .row [class*="col-"]{
-    background-color: grey;
     margin: 0.5rem 0.5rem 0;
     padding: .5rem;
 }
