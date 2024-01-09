@@ -102,16 +102,23 @@ ul{
 
 .ham-menu.active span:nth-child(1){
     top: 50%;
-    transform: translate(50%, 50%) rotate(45 deg);
     background-color: #30282e;
 }
 
 .ham-menu.active span:nth-child(2){
-    opacity: 0;
+    top: 50%;
+    background-color: #30282e;
 }
 
 .ham-menu.active span:nth-child(3){
     top: 50%;
-    transform: translate(50%, 50%) rotate(-45 deg);
     background-color: #30282e;
+}
+
+/*Home Page Images*/
+.homeimage{
+    position: absolute;
+    left: 0;
+    top: 4.2em;
+
 }
