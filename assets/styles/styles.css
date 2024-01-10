@@ -18,6 +18,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5;
     color: #30282e;
+    font-size: 1.5rem;
 }
 
 ul{
@@ -207,4 +208,28 @@ img{
 .gallery-overlay:target {
     opacity: 1;
     pointer-events: all;
+}
+
+/*Contact Form*/
+
+.formbtn{
+    padding: 0.3rem;
+    background-color: #30282e;
+    border: none;
+    box-shadow: 1cm;
+    color: #d7dabd;
+    border-radius: 15%;
+}
+
+.contactform{
+    background-color: #a4a791;
+    border-color: #30282e;
+    border-style: solid;
+}
+
+.contactimg{
+    padding: 0;
+    height: auto;
+    width: 100%;
+    justify-items: center;
 }

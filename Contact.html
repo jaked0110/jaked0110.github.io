@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="assets/styles/grid.css" />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="off-screen-menu">
+        <ul>
+          <li class="nav-item">
+            <a href="index.html" class="navbar-brand afarrugia">A. Wynn</a>
+          </li>
+          <li class="nav-item">
+            <a href="Gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="Tips.html" class="nav-link">Tips</a>
+          </li>
+          <li class="nav-item">
+            <a href="Equipment.html" class="nav-link">Equipment</a>
+          </li>
+          <li class="nav-item">
+            <a href="Contact.html" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <nav class="navbar">
+        <div class="ham-menu">
+          <span class="ham-menu"></span>
+          <span class="ham-menu"></span>
+          <span class="ham-menu"></span>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <main>
+            <form
+              action="mailto:admin@car.com"
+              method="post"
+              enctype="text/plain"
+              class="contactform"
+            >
+              <div class="container">
+                <!--First and Last Names-->
+                <div class="row">
+                  <div class="col-3">
+                    <label for="first-name-input">First Name</label>
+                    <input
+                      type="text"
+                      name="first-name"
+                      id="first-name-input"
+                      placeholder="Joe"
+                    />
+                  </div>
+                  <div class="col-3">
+                    <label for="last-name-input">Last Name</label>
+                    <input
+                      type="text"
+                      name="last-name"
+                      id="last-name-input"
+                      placeholder="Joe"
+                    />
+                  </div>
+                </div>
+                <!--Email-->
+                <div class="row">
+                  <div class="col-12">
+                    <label for="email-address-input">Email Address </label>
+                    <input
+                      type="email"
+                      id="email-address-input"
+                      name="email-address"
+                      placeholder="abc@car.com"
+                    />
+                  </div>
+                </div>
+                <!--Drop down list-->
+                <div class="row">
+                  <div class="col-12">
+                    <label for="topic-dropdown">Topic </label>
+                    <select name="topic" id="topic-dropdown">
+                      <option value=""></option>
+                      <option value="tech-support">Technical Support</option>
+                      <option value="business-inquiry">Business Inquiry</option>
+                      <option value="problem">Website Problem</option>
+                    </select>
+                  </div>
+                </div>
+                <!--Subject-->
+                <div class="row">
+                  <div class="col-12">
+                    <label for="subject-input">Subject</label>
+                    <input type="text" id="subject-input" name="subject" />
+                  </div>
+                </div>
+                <!--Message-->
+                <div class="row">
+                  <div class="col-12">
+                    <label for="">Message</label>
+                    <textarea
+                      name="message"
+                      id="message-input"
+                      cols="30"
+                      rows="10"
+                    >
+                    </textarea>
+                  </div>
+                </div>
+                <!--Form Buttons-->
+                <div class="row">
+                  <div class="col-1">
+                    <button type="submit" class="formbtn">Send</button>
+                  </div>
+                  <div class="col-1">
+                    <button type="reset" class="formbtn">Clear</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </main>
+        </div>
+        <div class="col-6">
+          <img
+            src="assets/images/khashayar-kouchpeydeh-vMGM9Y48eIY-unsplash.jpg"
+            alt="khashayar-kouchpeydeh-vMGM9Y48eIY-unsplash"
+            class="contactimg"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
