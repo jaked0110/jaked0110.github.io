@@ -19,6 +19,8 @@
 .container .row [class*="col-"]{
     margin: 0.5rem 0.5rem 0;
     padding: 1rem;
+    height: auto;
+    width: auto;
 }
 
 .container .row .col-1{
