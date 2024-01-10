@@ -35,7 +35,7 @@ img{
     left: 0;
     top: 4.2em;
     z-index:-1;
-    padding: 2rem;
+    padding: 1rem;
     height: auto;
     width: 100%;    
 }
@@ -175,7 +175,7 @@ img{
 }
 
 .gallery-overlay {
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, .95);
     opacity: 0;
     height: 100%;
     left: 0;
