@@ -24,6 +24,12 @@ ul{
     list-style-type: none;
 }
 
+h3{
+    font-weight: 200;
+    font-size: 3rem;
+    text-align: center;
+}
+
 img{
     display: block;
     left: 0;
@@ -82,6 +88,11 @@ img{
 .navbar-nav li{
     padding: 0.5em;
     margin: 0 0.5em;
+}
+
+.Gallery{
+    font-family: sacramento;
+    font-size: 4rem;
 }
 
 /*Off-screen-menu*/
@@ -152,4 +163,52 @@ img{
     left: 0;
     top: 4.2em;
     z-index:-1
+}
+
+/*Gallery*/
+.gallery-nav {
+    display: flex;
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.gallery-overlay {
+    background-color: rgba(0, 0, 0, .75);
+    opacity: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
+    transition: all .2s ease;
+}
+
+.gallery-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-image {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gallery-overlay:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.caption {
+    color: #e0e2e4;
+    text-decoration: none;
 }
