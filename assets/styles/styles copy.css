@@ -1,18 +1,18 @@
 /* TAGS */
 a{
-    color: #F2F5D3;
+    color: #30282e;
     text-decoration: none;
 }
 
 a:hover {
-    color: #000000;
+    color: #ffffff;
 }
 
 body{
-    background-color: #F2F5D3;
+    background-color: #30282e;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5;
-    color: #30282e;
+    color: #F2F5D3;
 }
 
 ul{
@@ -56,7 +56,7 @@ img{
 
 }
 .navbar{
-    border-bottom: 1px solid #30282e;
+    border-bottom: 1px solid #F2F5D3;
     padding: .5rem;
 }
 
@@ -79,7 +79,7 @@ img{
 
 /*Off-screen-menu*/
 .off-screen-menu{
-    background-color: #30282e;
+    background-color: #babda5;
     height: 100vh;
     width: 100%;
     max-width: 450px;
@@ -108,7 +108,7 @@ img{
 .ham-menu span{
     height: 5px;
     width: 100%;
-    background-color: #30282e;
+    background-color: #C6C9BD;
     border-radius: 25px;
     position: absolute;
     top: 50%;
@@ -125,17 +125,17 @@ img{
 
 .ham-menu.active span:nth-child(1){
     top: 50%;
-    background-color: #F2F5D3;
+    background-color: #30282e;
 }
 
 .ham-menu.active span:nth-child(2){
     top: 50%;
-    background-color: #F2F5D3;
+    background-color: #30282e;
 }
 
 .ham-menu.active span:nth-child(3){
     top: 50%;
-    background-color: #F2F5D3;
+    background-color: #30282e;
 }
 
 /*Home Page Images*/

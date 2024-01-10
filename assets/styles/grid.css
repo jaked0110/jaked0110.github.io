@@ -5,9 +5,10 @@
 }
 
 .container{
-    margin: auto;
+    margin: auto ;
+    margin-right: 0;
     max-width: 1140px;
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
     /* rem = font size of root element*/
 }
 
