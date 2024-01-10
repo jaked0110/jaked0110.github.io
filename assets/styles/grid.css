@@ -5,9 +5,7 @@
 }
 
 .container{
-    margin: auto ;
-    margin-right: 0;
-    max-width: 1140px;
+    margin: 1rem;
     padding: 2rem 2rem;
     /* rem = font size of root element*/
 }
@@ -20,7 +18,7 @@
 
 .container .row [class*="col-"]{
     margin: 0.5rem 0.5rem 0;
-    padding: .5rem;
+    padding: 1rem;
 }
 
 .container .row .col-1{

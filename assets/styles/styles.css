@@ -1,3 +1,8 @@
+/*Custom Fonts*/
+@font-face {
+    font-family: "Sacramento";
+    src: url(Sacramento-Regular.ttf);
+}
 /* TAGS */
 a{
     color: #F2F5D3;
@@ -20,26 +25,26 @@ ul{
 }
 
 img{
-    position: absolute;
     display: block;
     left: 0;
     top: 4.2em;
     z-index:-1;
     padding: 2rem;
     height: auto;
-    width: 1500px;    
+    width: 100%;    
 }
 
 /* CLASSES */
 .afarrugia{
-    font-size: larger;
+    font-size: 5rem;
     font-weight: bold;
+    font-family: sacramento;
 }
 
 .intro{
     text-align: right;
-    right: 0;
     font-size: 2rem;
+    margin-top: 10rem;
 }
 
 .button{
@@ -56,7 +61,7 @@ img{
 
 }
 .navbar{
-    border-bottom: 1px solid #30282e;
+    border-bottom: 3px solid #30282e;
     padding: .5rem;
 }
 
@@ -141,6 +146,7 @@ img{
 /*Home Page Images*/
 .ahomeimage{
     position: absolute;
+    display: block;
     left: 0;
     top: 4.2em;
     z-index:-1
