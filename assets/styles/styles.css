@@ -249,3 +249,13 @@ img{
     border: 0;
     padding: 0;
 }
+
+.tipstext{
+    text-align: center;
+    padding: 2rem;
+}
+
+.links{
+    padding: 1rem 2rem;
+    text-align: center;
+}
