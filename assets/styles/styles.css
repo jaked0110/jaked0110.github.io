@@ -233,3 +233,19 @@ img{
     width: 100%;
     justify-items: center;
 }
+
+/*Tips pg*/
+.tipsbanner{
+    background-color: #30282e;
+    margin: 0;
+    border: 0;
+    width: 20rem;
+    height: 100vh;
+    display: block;
+}
+
+.marginignore{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
