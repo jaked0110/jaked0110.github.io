@@ -241,7 +241,6 @@ img{
     border: 0;
     width: 20rem;
     height: 100vh;
-    display: block;
 }
 
 .marginignore{
@@ -259,3 +258,4 @@ img{
     padding: 1rem 2rem;
     text-align: center;
 }
+
