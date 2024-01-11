@@ -41,6 +41,13 @@ img{
     width: 100%;    
 }
 
+input{
+    width: 100%;
+    height: 1.5rem;
+    border: none;
+    border-bottom:1px;
+}
+
 /* CLASSES */
 .afarrugia{
     font-size: 4rem;
@@ -239,7 +246,7 @@ img{
     background-color: #30282e;
     margin: 0;
     border: 0;
-    width: 20rem;
+    width: 200rem;
     height: 100vh;
 }
 
@@ -255,7 +262,22 @@ img{
 }
 
 .links{
-    padding: 1rem 2rem;
-    text-align: center;
+    padding: 0 2rem;
+    padding-top: 2rem;
+    height: 8rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
+.linksfixed{
+    position: fixed;
+    min-height: 100%;
+    
+}
+
+.portrait{
+    width: auto;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
